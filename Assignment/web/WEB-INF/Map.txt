@@ -1,0 +1,12 @@
+login=LoginServlet
+search=SearchServlet
+logout=LogoutServlet
+delete=DeleteServlet
+update=UpdateServlet
+createAccount=createAcountServlet
+init=initialServlet
+loadBooktoShop=LoadBookServlet
+addBook=AddBookServlet
+removeBook=removeBookServlet
+checkOut=checkOutServlet
+searchPage=search.jsp

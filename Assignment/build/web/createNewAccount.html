@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Create Account</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="login-box flex-row flex-center">
+            <fieldset class="outside-form">
+                <legend><h2>Sign Up Form</h2></legend>
+                <form action="createAccount" method="POST">
+                    <div class="wrapper-line">Username *:<input type="text" name="txtUsername" value="" placeholder="Input username here"/></div>
+                    <div class="wrapper-line">Password *:<input type="password" name="txtPassword" value=""  placeholder="Input password here"/></div>
+                    <div class="wrapper-line">Confirm&nbsp; *:<input type="password" name="txtConfirm" value=""/></div>
+                    <div class="wrapper-line">LastName *:<input type="text" name="txtLastName" value=""  placeholder="Input Last Name here"/></div>
+                        <div>
+                            <input class="btn-group-action" type="submit" value="Sign up"/>
+                            <input class="btn-group-action" style="float: right" type="reset" value="Reset" name="BtAction" />
+                        </div>
+                </form>
+                <a href="login.html">Already has an account</a>
+            </fieldset>
+        </div>
+    </body>
+</html>
+<style>
+    .container{
+        width: 1350px;
+        height: auto;
+        box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+        color: #4d62ff;
+    }
+    body{
+        color: #333;
+        font-family: monospace;
+        background-color: #f9f9f9;
+    }
+    .flex-colum{
+        display:  flex;
+        flex-direction: column;
+    }
+    .flex-row{
+        display: flex;
+        flex-direction: row;
+    }
+    .flex-center{
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-box{
+        padding-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .wrapper-line{
+        margin-bottom:20px;
+        letter-spacing: 0.8;
+        font-size: 17px;
+    }
+    .btn-group-action{
+        padding: 10px;
+        background-color: #f0f9f0;
+        border: #cccccc 0.5px solid;
+    }
+    .outside-form{
+        padding: 50px;    
+    }
+</style>
